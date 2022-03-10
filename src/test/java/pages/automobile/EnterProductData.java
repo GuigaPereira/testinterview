@@ -5,8 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-import javax.swing.*;
-
 public class EnterProductData extends ElementsEnterProductData {
 
     WebDriver driver;
@@ -33,6 +31,5 @@ public class EnterProductData extends ElementsEnterProductData {
         Thread.sleep(1000);
         btnNext.click();
         Thread.sleep(1000);
-
     }
 }
