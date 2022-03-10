@@ -21,8 +21,8 @@ public class SendQuote extends ElementsSendQuote {
         password.sendKeys("1Asdfg");
         confirmPassword.sendKeys("1Asdfg");
         comments.sendKeys("Teste");
-        btnSendEmail.click();
         Thread.sleep(1000);
+        btnSendEmail.click();
     }
 
     public void validaMensagem() throws InterruptedException {
