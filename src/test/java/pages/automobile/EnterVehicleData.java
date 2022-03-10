@@ -25,6 +25,7 @@ public class EnterVehicleData extends ElementsEnterVehicleData {
         optionalProducts.click();
         Select carroCortesia = new Select(courtesyCar);
         carroCortesia.selectByVisibleText("Yes");
+        Thread.sleep(1000);
         btnNext.click();
         Thread.sleep(1000);
     }

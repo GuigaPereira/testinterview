@@ -28,6 +28,7 @@ public class EnterInsurantData extends ElementsEnterInsurantData {
         listPrice.sendKeys("10000");
         licensePlateNumber.sendKeys("Teste");
         annualMileage.sendKeys("1000");
+        Thread.sleep(1000);
         btnNext.click();
         Thread.sleep(1000);
     }
